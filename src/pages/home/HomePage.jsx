@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
 
+import "./HomePage.scss"
+import Btn from '../../components/button/Btn'
+
 class HomePage extends Component {
   render() {
     return (
-      <div>HomePage</div>
+      <div>
+        <Btn>
+          Get
+        </Btn>
+      </div>
     )
   }
 }
