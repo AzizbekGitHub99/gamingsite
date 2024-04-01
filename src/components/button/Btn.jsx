@@ -6,7 +6,7 @@ class Btn extends Component {
   render() {
     console.log(this.props.children);
     return (
-      <button>
+      <button className='Btn'>
         {this.props.children}
       </button>
     )
