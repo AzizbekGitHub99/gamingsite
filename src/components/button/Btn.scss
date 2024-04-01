@@ -1,0 +1,16 @@
+.Btn{
+  background: linear-gradient(92.48deg, #D80027 2.08%, #FB9E3C 117.25%);
+  padding: 15px 30px;
+  height: 54px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  border-radius:100px;
+  border: none;
+  cursor: pointer;
+  transition: all .4s;
+  &:hover{
+    box-shadow: 0 0 10px 2px #D80027;
+  }
+}

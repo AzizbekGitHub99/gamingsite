@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 
+import "./Btn.scss"
+
 class Btn extends Component {
   render() {
+    console.log(this.props.children);
     return (
-      <div>Btn</div>
+      <button className='Btn'>
+        {this.props.children}
+      </button>
     )
   }
 }
