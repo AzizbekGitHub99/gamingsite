@@ -13,7 +13,7 @@ class Team extends Component {
         <div className="container">
           <h1 className='team__title'>Our Team</h1>
          <div className='team__cards__row'>
-          {team.map(el =><CardTeam {...el}/> )}
+          {team.map((el, i) =><CardTeam key={i} {...el}/> )}
          </div>
         </div>
       </section>
