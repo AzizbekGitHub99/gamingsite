@@ -4,7 +4,7 @@ import Hero from './components/hero/Hero';
 import Work from './components/work/work';
 import Info from './components/info/Info';
 import Team from './components/team/Team';
-import Subscribe from './components/subscribe/Subscribe';
+import SubscribeAbout from './components/subscribe/SubscribeAbout';
 
 
 class AboutPage extends Component {
@@ -15,7 +15,7 @@ class AboutPage extends Component {
         <Work/>
         <Info/>
         <Team/>
-        <Subscribe/>
+        <SubscribeAbout/>
       </Fragment>
     )
   }
