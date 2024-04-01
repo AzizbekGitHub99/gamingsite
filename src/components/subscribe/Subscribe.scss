@@ -1,6 +1,6 @@
 .subscribe {
   width: 100%;
-  padding: 40px 55px;
+  padding: 35px 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -20,11 +20,12 @@
   }
   &__right {
     position: relative;
+    width: min(390px, 100% );
     input {
       padding: 14px 20px;
       background-color: black;
       border-radius: 8px;
-      min-width: 320px;
+      width: 100%;
     }
     button {
       border: none;
