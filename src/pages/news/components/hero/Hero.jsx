@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import arrow from "../assets/right-arrow.png";
 import search from "../assets/search.png";
-import "./Hero.scss";
+import "./hero.scss";
 class Hero extends Component {
   render() {
     return (

@@ -60,7 +60,19 @@ html{
 body{
   background: linear-gradient(176.55deg, rgb(7, 3, 32) 42.529%, rgb(5, 13, 124) 61.57%, rgb(43, 54, 181) 87.077%);
   overflow-x: hidden;
+  
 }
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+}
+
+
 
 .container{
   max-width: 1240px;
