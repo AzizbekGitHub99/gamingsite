@@ -19,30 +19,30 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="navbar">
-          <Link to={"/"} className="logo">
+          <Link to="/" className="logo">
             Logo
           </Link>
           <ul className={isOpen ? "open" : ""}>
             <li>
-              <NavLink to={"/"}>Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink onClick={closeMenu} to={"about"}>
+              <NavLink onClick={closeMenu} to="about">
                 About us
               </NavLink>
             </li>
             <li>
-              <NavLink onClick={closeMenu} to={"services"}>
+              <NavLink onClick={closeMenu} to="services">
                 Portfolio
               </NavLink>
             </li>
             <li>
-              <NavLink onClick={closeMenu} to={"news"}>
+              <NavLink onClick={closeMenu} to="news">
                 News
               </NavLink>
             </li>
             <li>
-              <NavLink onClick={closeMenu} to={"contact"}>
+              <NavLink onClick={closeMenu} to="contact">
                 Contact us
               </NavLink>
             </li>

@@ -70,9 +70,10 @@ body{
 
 main{
   flex: 1;
+  section {
+    padding-top: 150px;
+  }
 }
-
-
 
 .container{
   max-width: 1240px;

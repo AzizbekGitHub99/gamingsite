@@ -1,4 +1,6 @@
 .header {
+  position: fixed;
+  top: 0;
   width: 100%;
   height: auto;
   overflow-x: hidden;
@@ -55,7 +57,7 @@
       display: none;
     }
   }
-  .header-hero {
+  &-hero {
     h3 {
       font-family: Poppins;
       font-size: 20px;

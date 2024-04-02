@@ -15,7 +15,7 @@ export class Hero extends Component {
             <div className="container">
                 <div className="hero-tab-links">
                     <Link className='link-home'  to={"/"}>Home</Link>
-                    <span> > </span>
+                    <span> &gt; </span>
                     <p className='link-home'  to={"/service"}>Services</p>
                 </div>
                 <div className="hero-titles">
