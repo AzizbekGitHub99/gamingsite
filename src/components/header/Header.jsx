@@ -12,6 +12,9 @@ class Header extends Component {
     const toogleMenu = () => {
       this.setState({ isOpen: !isOpen });
     };
+    const closeMenu = () => {
+      this.setState({ isOpen: false });
+    };
 
     return (
       <div className="header">
@@ -24,16 +27,24 @@ class Header extends Component {
               <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <NavLink to={"about"}>About us</NavLink>
+              <NavLink onClick={closeMenu} to={"about"}>
+                About us
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"services"}>Portfolio</NavLink>
+              <NavLink onClick={closeMenu} to={"services"}>
+                Portfolio
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"news"}>News</NavLink>
+              <NavLink onClick={closeMenu} to={"news"}>
+                News
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"contact"}>Contact us</NavLink>
+              <NavLink onClick={closeMenu} to={"contact"}>
+                Contact us
+              </NavLink>
             </li>
           </ul>
           <button
