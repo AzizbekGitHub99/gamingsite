@@ -1,0 +1,84 @@
+.trend-games {
+  margin-bottom: 110px;
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    h2 {
+      color: white;
+      font-size: 31px;
+      font-weight: 700;
+    }
+    button {
+      line-height: 57px;
+      height: 57px;
+      width: min(150px, 100%);
+      background-color: rgba($color: white, $alpha: 0.11);
+      border: none;
+      color: white;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 130px;
+    .card {
+      margin: 0 auto;
+      .card-img {
+        margin-bottom: 25px;
+      }
+      h4 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+        img {
+          display: inline;
+        }
+      }
+    }
+  }
+  .callofduty {
+    .title {
+      margin: 0 auto;
+      width: min(825px, 100%);
+      font-size: 35px;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+      margin-bottom: 100px;
+    }
+    .subtitle {
+      font-size: 30px;
+      font-weight: 600;
+      color: white;
+      margin-bottom: 32px;
+    }
+    .descript {
+      width: min(540px, 100%);
+      font-size: 16px;
+      color: white;
+      margin-bottom: 70px;
+    }
+    .cod-img {
+      background-image: url("../../../../assets/images/home/callofduty.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 460px;
+      position: relative;
+      img {
+        position: absolute;
+        top: -67px;
+        right: 125px;
+      }
+    }
+  }
+}

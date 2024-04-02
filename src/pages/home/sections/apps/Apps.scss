@@ -1,0 +1,35 @@
+.apps {
+  background-image: url("../../../../assets/images/home/pubg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 110px;
+  .apps__main {
+    padding-top: 130px;
+    padding-bottom: 80px;
+    .title {
+      margin: 0 auto;
+      text-align: center;
+      font-weight: 700;
+      font-size: 30px;
+      color: white;
+      width: min(825px, 100%);
+      margin-bottom: 25px;
+    }
+    .subtitle {
+      text-align: center;
+      margin: 0 auto;
+      width: min(825px, 100%);
+      font-size: 16px;
+      font-weight: 400;
+      color: white;
+      margin-bottom: 100px;
+    }
+    .app-cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+      flex-wrap: wrap;
+    }
+  }
+}

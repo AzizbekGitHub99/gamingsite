@@ -1,16 +1,24 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from "react";
 
-import "./HomePage.scss"
-import Subscribe from '../../components/subscribe/Subscribe'
+import HeroHome from "./sections/hero/HeroHome";
+import TrendGames from "./sections/trend/TrendGames";
+import Apps from "./sections/apps/Apps";
+import Projects from "./sections/projects/Projects";
+import SubscribeHome from "./sections/subscribe/SubscribeHome";
+
 
 class HomePage extends Component {
   render() {
     return (
-      <div className='container'>
-        <Subscribe/>
-      </div>
-    )
+      <Fragment>
+        <HeroHome/>
+        <TrendGames/>
+        <Apps/>
+        <Projects/>
+        <SubscribeHome />
+      </Fragment>
+    );
   }
 }
 
-export default HomePage
+export default HomePage;
