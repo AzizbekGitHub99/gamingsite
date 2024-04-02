@@ -1,9 +1,22 @@
 import { Component } from 'react'
 
+import CardTeam from '../../../../components/team-card/CardTeam';
+
+import team from '../../consts/team'
+
+import './team.scss';
+
 class Team extends Component {
   render() {
     return (
-      <div>Team</div>
+      <section className='team'>
+        <div className="container">
+          <h1 className='team__title'>Our Team</h1>
+         <div className='team__cards__row'>
+          {team.map((el, i) =><CardTeam key={i} {...el}/> )}
+         </div>
+        </div>
+      </section>
     )
   }
 }
