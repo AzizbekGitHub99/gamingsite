@@ -1,11 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from "react";
+import Hero from "./components/hero/Hero";
+import Card from "./components/card/Card";
 
-class NewsPage extends Component {
+export class NewsPage extends Component {
   render() {
     return (
-      <div>NewsPage</div>
-    )
+      <Fragment>
+        <Hero />
+        <Card />
+      </Fragment>
+    );
   }
 }
 
-export default NewsPage
+export default NewsPage;
