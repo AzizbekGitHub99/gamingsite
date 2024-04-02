@@ -12,6 +12,9 @@ class Header extends Component {
     const toogleMenu = () => {
       this.setState({ isOpen: !isOpen });
     };
+    const closeMenu = () => {
+      this.setState({ isOpen: false });
+    };
 
     return (
       <div className="header">
@@ -24,16 +27,24 @@ class Header extends Component {
               <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <NavLink to={"about"}>About us</NavLink>
+              <NavLink onClick={closeMenu} to={"about"}>
+                About us
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"services"}>Portfolio</NavLink>
+              <NavLink onClick={closeMenu} to={"services"}>
+                Portfolio
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"news"}>News</NavLink>
+              <NavLink onClick={closeMenu} to={"news"}>
+                News
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"contact"}>Contact us</NavLink>
+              <NavLink onClick={closeMenu} to={"contact"}>
+                Contact us
+              </NavLink>
             </li>
           </ul>
           <button
@@ -49,8 +60,8 @@ class Header extends Component {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M6.7929 7.49998L1.14645 1.85353L1.85356 1.14642L7.50001 6.79287L13.1465 1.14642L13.8536 1.85353L8.20711 7.49998L13.8536 13.1464L13.1465 13.8535L7.50001 8.20708L1.85356 13.8535L1.14645 13.1464L6.7929 7.49998Z"
                   fill="#fff"
                 />
@@ -66,23 +77,23 @@ class Header extends Component {
                 <path
                   d="M3 4H21"
                   stroke="#fff"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M3 12H21"
                   stroke="#fff"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M3 20H21"
                   stroke="#fff"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             )}

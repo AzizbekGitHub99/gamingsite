@@ -8,7 +8,9 @@ class Layout extends Component {
     return (
       <Fragment>
         <Header />
+        <main>
         <Outlet />
+        </main>
         <Footer />
       </Fragment>
     );
