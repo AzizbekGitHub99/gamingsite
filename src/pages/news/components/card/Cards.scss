@@ -3,6 +3,8 @@
   .cards__items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 70px;
   }
 }
 .card {
@@ -51,4 +53,18 @@
   display: inline-block;
   width: 100%;
   margin: 0px 90px 90px 0px;
+}
+.litle__card {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-bottom: 60px;
+  &-header {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 }
