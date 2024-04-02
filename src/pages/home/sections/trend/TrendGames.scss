@@ -23,14 +23,14 @@
       font-weight: 500;
     }
   }
-  .cards {
+  .trend-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 130px;
-    .card {
-      margin: 0 auto;
+    .trend-card {
+      // margin: 0 auto;
       .card-img {
         margin-bottom: 25px;
       }
@@ -80,5 +80,12 @@
         right: 125px;
       }
     }
+  }
+}
+
+
+@media (max-width:540px){
+  .trend-card{
+    margin: 0 auto;
   }
 }

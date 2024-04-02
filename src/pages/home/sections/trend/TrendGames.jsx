@@ -17,26 +17,26 @@ class TrendGames extends Component {
           <h2>Currently Trending Games</h2>
           <button>SEE ALL</button>
         </div>
-        <div className="cards">
-          <div className="card">
+        <div className="trend-cards">
+          <div className="trend-card">
             <img className="card-img" src={card1} alt="card-img" />
             <h4>
               <img src={fire} alt="fire" /> 40 Followers
             </h4>
           </div>
-          <div className="card">
+          <div className="trend-card">
             <img className="card-img" src={card2} alt="card-img" />
             <h4>
               <img src={fire} alt="fire" /> 40 Followers
             </h4>
           </div>
-          <div className="card">
+          <div className="trend-card">
             <img className="card-img" src={card3} alt="card-img" />
             <h4>
               <img src={fire} alt="fire" /> 40 Followers
             </h4>
           </div>
-          <div className="card">
+          <div className="trend-card">
             <img className="card-img" src={card4} alt="card-img" />
             <h4>
               <img src={fire} alt="fire" /> 40 Followers
