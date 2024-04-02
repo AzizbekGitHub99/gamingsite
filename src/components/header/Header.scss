@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   height: auto;
+  overflow-x: hidden;
   .navbar {
     width: 100%;
     max-width: 1230px;
@@ -11,6 +12,7 @@
     padding: 50px 20px;
     .logo {
       display: block;
+      cursor: pointer;
       font-family: Poppins;
       font-size: 29px;
       font-weight: 800;
@@ -24,8 +26,8 @@
       align-items: center;
       li {
         list-style: none;
+        cursor: pointer;
         a {
-          cursor: pointer;
           display: block;
           font-family: Poppins;
           font-size: 16px;
@@ -119,24 +121,39 @@
       padding: 30px 30px;
       ul {
         padding: 20px;
-        right: 40px;
-        top: 60px;
-        width: 80%;
+        top: 100px;
+        transform: translateX(1000px);
+        // right: -1000px;
+        width: 90%;
         position: absolute;
         display: flex;
         flex-direction: column;
         gap: 15px;
         background-color: white;
         z-index: 10;
-        li{
-          a{
+        transition: all 0.5s linear;
+        li {
+          a {
             color: black;
-
           }
         }
       }
+      .open {
+        transform: translateX(0);
+        right: auto;
+      }
       .open-btn {
+        outline: none;
         display: block;
+        svg {
+          transform: rotate(180deg);
+          transition: transform 0.2s linear;
+        }
+      }
+      .openb {
+        svg {
+          transform: rotate(0);
+        }
       }
     }
   }

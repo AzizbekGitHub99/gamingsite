@@ -1,0 +1,23 @@
+.app-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 28px;
+  margin: 0 auto;
+  .img-circle {
+    width: 65px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: grid;
+    place-items: center;
+  }
+  .app-card-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+  }
+  .arrow {
+    cursor: pointer;
+  }
+}
