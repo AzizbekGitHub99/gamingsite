@@ -1,0 +1,112 @@
+.register__header {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%;
+}
+.register__paragraph {
+  width: 45%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%;
+  margin-bottom: 74px;
+}
+@media screen and (max-width: 550px) {
+  .register__paragraph {
+    width: 100%;
+  }
+}
+.register__btn {
+  padding: 40px 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  background: #d6c5bb;
+}
+@media screen and (max-width: 750px) {
+  .register__btn {
+    flex-wrap: wrap;
+  }
+}
+.register__btn-header {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.register__btn-paragraph {
+  width: 70%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 550px) {
+  .register__btn-paragraph {
+    width: 100%;
+  }
+}
+.register__btn-right {
+  position: relative;
+  width: 385px;
+}
+@media screen and (max-width: 550px) {
+  .register__btn-right {
+    margin-top: 30px;
+  }
+}
+.register__btn-right input {
+  background-color: #000;
+  padding: 20px 14px 20px 5px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 8px;
+}
+.register__btn-right input::-moz-placeholder {
+  color: #898989;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.register__btn-right input::placeholder {
+  color: #898989;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.register__btn-right button {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 2;
+  border: none;
+  top: 7px;
+  width: 104px;
+  height: 30px;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  background: #d80027;
+  transform: translateX(2px);
+}

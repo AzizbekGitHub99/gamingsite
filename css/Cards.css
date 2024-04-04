@@ -1,0 +1,86 @@
+.cards {
+  padding-top: 100px;
+}
+.cards .cards__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 70px;
+}
+@media screen and (max-width: 700px) {
+  .cards .cards__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.card__image img {
+  width: 100%;
+}
+.card__btns {
+  display: flex;
+  align-items: center;
+}
+.card__btns .card__btn {
+  margin: 0px 21px 21px 0px;
+  padding: 9px 32px;
+  color: #fffcfc;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%;
+  background-color: rgb(7, 3, 32);
+  outline: none;
+  border: none;
+}
+.card__btns .card__btn:hover {
+  background: #2351f5;
+}
+.card__header {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card__paragraph {
+  margin-bottom: 44px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 207.8%;
+}
+
+.line img {
+  display: inline-block;
+  width: 100%;
+  margin: 0px 90px 90px 0px;
+}
+
+.litle__card {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 850px) {
+  .litle__card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.litle__card .litle__card-img img {
+  display: inline-block;
+  width: 100%;
+}
+.litle__card-header {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

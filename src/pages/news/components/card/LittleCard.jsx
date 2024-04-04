@@ -3,6 +3,7 @@ import "./Cards.scss";
 export class LittleCard extends Component {
   render() {
     const { image, btn1, btn2, title, color } = this.props;
+    console.log(image);
     return (
       <div className="litle__card">
         <div className="litle__card-img">

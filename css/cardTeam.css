@@ -1,0 +1,28 @@
+.card__team {
+  border-radius: 20px;
+  background: rgb(28, 20, 15);
+  padding: 35px 85px;
+  text-align: center;
+}
+.card__team__title {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 202.5%;
+}
+.card__team__text {
+  color: rgb(232, 232, 232);
+  font-weight: 300;
+  line-height: 202.5%;
+}
+
+@media (max-width: 1245px) {
+  .card__team {
+    padding: 25px 65px;
+  }
+}
+@media (max-width: 1079px) {
+  .card__team {
+    padding: 15px 45px;
+  }
+}

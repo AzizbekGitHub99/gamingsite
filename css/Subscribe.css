@@ -1,0 +1,58 @@
+.subscribe {
+  width: 100%;
+  padding: 35px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  gap: 10px;
+}
+.subscribe__left h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.subscribe__left p {
+  font-size: 17px;
+}
+.subscribe__right {
+  position: relative;
+  width: min(390px, 100%);
+}
+.subscribe__right input {
+  padding: 14px 20px;
+  background-color: black;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+}
+.subscribe__right button {
+  border: none;
+  border-radius: 8px;
+  height: 37px;
+  cursor: pointer;
+  position: absolute;
+  background-color: #d80027;
+  color: black;
+  padding: 8px 20px;
+  right: 5px;
+  top: 5px;
+}
+
+.dark {
+  background-color: #1C140F;
+}
+.dark .subscribe__left h2 {
+  color: white;
+}
+.dark .subscribe__left p {
+  color: white;
+}
+.dark .subscribe__right input {
+  background-color: white;
+}
+.dark .subscribe__right button {
+  color: white;
+}

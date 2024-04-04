@@ -1,0 +1,1 @@
+.app-card{display:flex;align-items:center;flex-direction:column;gap:28px;margin:0 auto}.app-card .img-circle{width:65px;height:60px;border-radius:50%;background-color:#fff;display:grid;place-items:center}.app-card .app-card-title{font-weight:500;font-size:16px;color:#fff}.app-card .arrow{cursor:pointer}
