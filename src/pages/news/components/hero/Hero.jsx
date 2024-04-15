@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import arrow from "../assets/right-arrow.png";
-import "./Hero.scss";
+import "./hero.scss";
 class Hero extends Component {
   render() {
     return (
